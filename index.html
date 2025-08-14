@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Log in</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">MJ</h1>
+      <p class="subtitle">Log in to your account</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="card">
+      <h2 class="card-title">Welcome back </h2>
+      <p class="card-text">Please fill the form below to continue.</p>
+
+      <form class="form" action="#" method="post" novalidate>
+        <div class="form-row">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="e.g., Khan" required />
+        </div>
+
+        <div class="form-row">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="e.g., Ayesha Khan" required />
+        </div>
+
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter a strong password"
+            minlength="6"
+            required
+          />
+        </div>
+
+        <div class="form-row">
+          <label for="confirm">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm"
+            name="confirm"
+            placeholder="Re-enter your password"
+            minlength="6"
+            required
+          />
+        </div>
+
+        <button class="btn" type="submit">Continue</button>
+
+        <p class="form-note">
+          By continuing, you agree to our
+          <a href="#" aria-label="Read Terms & Conditions">Terms</a>
+          and
+          <a href="#" aria-label="Read Privacy Policy">Privacy Policy</a>.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025  All rights reserved.</p>
+  </footer>
+</body>
+</html>
